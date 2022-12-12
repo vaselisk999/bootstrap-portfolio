@@ -1,0 +1,118 @@
+:root{
+    --color: #370e0c;
+}
+
+/* common styles */
+.btn-chery {
+    color: #fff;
+    background-color: var(--color);
+    border-color: var(--color);
+}
+
+.btn-chery:hover, .btn-chery:focus{
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+    color: #fff;
+    outline: none;
+}
+
+.title {
+    font-size: 58px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color);
+    color: var(--color);
+    padding-bottom: 20px;
+}
+
+.sub-title{
+    color: var(--color);
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+}
+
+/* home selection */
+
+.jumbotron {
+    height: calc( 100vh - 56px);
+    border-radius: none;
+    background-image: url('./../images/leone-venter.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.jumbotron-title {
+    font-weight: 500;
+    color: #343a40;
+}
+
+/* work selection */
+
+.work-container {
+    height: 100vh;
+    padding-top: 30px;
+    background-image: url('./../images/work.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cards-wrapper{
+    display: flex;
+    padding: 25px;
+}
+
+.card-wrapper{
+    padding: 10px;
+}
+
+.slick-prev {
+    color: #000;
+    border: none;
+    font-size: 30px;
+  }
+  
+.slick-next {
+    color: #000;
+    border: none;
+    font-size: 30px;
+}
+
+/* skills selection */
+
+.skills-container{
+    background-color: #fff6e3;
+    padding-top: 30px;
+    height: 100vh;
+}
+
+.skills p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* about/contacts section */
+
+.contacts-container{
+    height: 100vh;
+    padding-top: 30px;
+}
+
+/* footer */
+.footer-wrapper{
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+}
+
+footer .nav-link {
+    color:#fff;
+    text-decoration: none;
+}
+
+footer .nav-link:hover{
+    color:rgb(116, 116, 116);
+}
